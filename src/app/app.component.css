@@ -1,0 +1,9 @@
+.articleTree {
+    float: left;
+    margin-top: 8px; 
+}
+
+.articleTreeTab {
+    float: left;
+    width: 80%;
+}

@@ -1,0 +1,185 @@
+{
+    "Data": 
+    [
+        {
+            "label": "All Articles",
+            "id": "AllArticlesFolder",
+            "expandedIcon": "fa-folder-open",
+            "collapsedIcon": "fa-folder",
+            "expanded":"true",
+            "leaf": false,
+            "children": [
+                {
+                    "label": "Extjs",
+                    "id": "ExtjsFolder",
+                    "expandedIcon": "fa-folder-open",
+                    "collapsedIcon": "fa-folder",
+                    "expanded":"true",
+                    "leaf": false,
+                    "children": [
+                        {
+                            "label": "Barcode Reader Component", 
+                            "icon": "fa-file-pdf-o", 
+                            "id": "BarcodeReaderComponent",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Ajit Kumar",
+                            "publishedon":"1st July 2017",
+                            "summary":"This article deals with the how to create barcode from a string value acording the configured code and bar related height width configurations."
+                        },{
+                            "label": "Calender Component", 
+                            "icon": "fa-file-pdf-o",
+                            "id": "CalenderComponent",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Balu",
+                            "publishedon":"2st July 2017",
+                            "summary":"This article deals with the how to Extjs calender integration and configure the dates for which work assignment and meeting configurations.user can take various actions on the calender by configuring the context menus and respective fucntionality."
+                        }
+                    ]
+                },{
+                    "label": "Angular",
+                    "id": "AngularFolder",
+                    "expandedIcon": "fa-folder-open",
+                    "collapsedIcon": "fa-folder",
+                    "expanded":"true",
+                    "leaf": false,
+                    "children": [
+                        {
+                            "label": "Introduction", 
+                            "icon": "fa-file-pdf-o", 
+                            "id": "AngularIntroduction",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Chandu",
+                            "publishedon":"3rd July 2017",
+                            "summary":"This article deals with the what is angular and how to design a small scale application using the angular,how the Coponent based arhitecture will work."
+                        }, 
+                        {
+                            "label": "Component Life Cycle",
+                            "icon": "fa-file-pdf-o",
+                            "id": "ComponentLifeCycle",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Dinesh",
+                            "publishedon":"4th July 2017",
+                            "summary":"This article deals with Component life cycle of the angular application"
+                        },
+                        {
+                            "label": "Modules",
+                            "icon": "fa-file-pdf-o",
+                            "id": "Modules",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Eshwar",
+                            "publishedon":"5th July 2017",
+                            "summary":"This article deals with what is the importance of the modules in angular and how module wraps all the components and how to import and export the modules."
+                        }, 
+                        {
+                            "label": "Components",
+                            "icon": "fa-file-pdf-o",
+                            "id": "Components",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Ganesh",
+                            "publishedon":"6th July 2017",
+                            "summary":"This article deals with Components, how to create a component and inputs and output and property binding and attribute binding."
+                        },
+                        {
+                            "label": "Data Binding",
+                            "icon": "fa-file-pdf-o",
+                            "id": "DataBinding",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Hima",
+                            "publishedon":"7th July 2017",
+                            "summary":"This article deals with Data binding in angular , property binding , attribute binding , template binding,Two way binding,one way binding."
+                        }, 
+                        {
+                            "label": "Services",
+                            "icon": "fa-file-pdf-o",
+                            "id": "Services",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Ivan",
+                            "publishedon":"8th July 2017",
+                            "summary":"This article deals with Services and how to call external apis and get the data,and it also discuss about the Promises and Observables and subscribers."
+                        },
+                        {
+                            "label": "Dependency Injection",
+                            "icon": "fa-file-pdf-o",
+                            "id": "DependencyInjection",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Jeevan",
+                            "publishedon":"9th July 2017",
+                            "summary":"This article deals with Dependency Injection and Module based injection and Component Based Injection and Providers."
+                        }
+                    ]
+                },{
+                    "label": "Java",
+                    "id": "JavaFolder",
+                    "expandedIcon": "fa-folder-open",
+                    "collapsedIcon": "fa-folder",
+                    "expanded":"true",
+                    "leaf": false,
+                    "children": [
+                        {
+                            "label": "Introduction",
+                            "icon": "fa-file-pdf-o",
+                            "id": "JavaIntroduction",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Kiran",
+                            "publishedon":"10th July 2017",
+                            "summary":"This article deals with a breaf introduction to Java, how polimorfisum,Inheritance and Compilers and other concepts."
+                        }, 
+                        {
+                            "label": "Classes",
+                            "icon": "fa-file-pdf-o",
+                            "id": "Classes",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Lavanya",
+                            "publishedon":"11th July 2017",
+                            "summary":"This article deals with java classes and how to write classes and methods and other concepts related to class"
+                        },
+                        {
+                            "label": "Interfaces",
+                            "icon": "fa-file-pdf-o",
+                            "id": "Interfaces",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Manish",
+                            "publishedon":"12th July 2017",
+                            "summary":"This article deals with java interfaces and how to write classes that impliments these interfaces, what are declarations and what is definations of the methods."
+                        }, 
+                        {
+                            "label": "Abstract Classes", 
+                            "icon": "fa-file-pdf-o",
+                            "id": "AbstractClasses",
+                            "children": [],
+                            "leaf": true,
+                            "droppable":false,
+                            "author":"Nageswar",
+                            "publishedon":"13th July 2017",
+                            "summary":"This article deals with java abstract classes how to use abstract classes and method override mechanisum of the sub classes of abstract callses."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

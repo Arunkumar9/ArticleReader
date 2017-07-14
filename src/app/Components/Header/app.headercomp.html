@@ -1,0 +1,12 @@
+<!--Header Component-->
+<div>
+  <img class="floatLeft" src="{{headerImgSrc}}" alt="WTT Article Reader" height="{{headerImgSrcHeight}}" width="{{headerImgSrcWidth}}">
+    
+  <h1 class="headerTitleCls">
+    {{title}}
+  </h1>
+
+  <p-dropdown [options]="languages"  class="themeDropdown" [style]="{'width':'160px','float':'right'}" editable="editable" placeholder="{{languagePlaceHolder}}"></p-dropdown>
+  <p-dropdown [options]="themes"   class="themeDropdown" [style]="{'width':'160px','float':'right'}" editable="editable" placeholder="{{themePlaceHolder}}"></p-dropdown>
+  
+</div>

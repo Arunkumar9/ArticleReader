@@ -1,0 +1,18 @@
+<p-tabView>
+    <p-tabPanel header="{{articleHeaderText}}">
+        <p-toolbar>
+            <div class="ui-toolbar-group-right">
+                <p-dropdown  [options]="switchViews" class="themeDropdown" [style]="{'width':'160px','float':'right'}" editable="editable" placeholder='{{switchViewText}}' (onChange)="onSwitchViewChange($event)"></p-dropdown>
+            </div>
+        </p-toolbar> 
+        <p-dataGrid [value]="articleDetails" [paginator]="true" [rows]="20">
+            <ng-template let-articleDetail pTemplate="item">
+                <div style="padding:3px" class="ui-g-12 ui-md-3">
+                    <p-panel [header]="articleDetail.label" [style]="{'text-align':'center'}">
+                        <img src="assets/images/articles/{{articleDetail.id}}.png" width="200" height="200">
+                    </p-panel>
+                </div>
+            </ng-template>
+        </p-dataGrid>    
+    </p-tabPanel>
+</p-tabView>

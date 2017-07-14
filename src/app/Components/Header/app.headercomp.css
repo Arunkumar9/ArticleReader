@@ -1,0 +1,16 @@
+.floatLeft {
+    float:left;
+    margin:0px;
+}
+
+.themeDropdown {
+    width:160px !important;
+    float:right;
+    margin:10px;
+}
+
+.headerTitleCls{
+    float:left;
+    margin:20px 10px 10px 10px;
+    color: #ffa500;
+}
